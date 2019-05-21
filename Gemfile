@@ -22,6 +22,7 @@ gem "rake"
 gem "responders" #For Rails 4.2 # LOCKED DOWN
 gem "ruby-prof"
 gem "sass-rails"
+gem 'nokogiri', '1.9.0'
 gem "simplecov", require: false, group: :test
 gem "sqlite3", "1.3.13" # 2/7/2019: LOCKED DOWN
 gem "therubyracer"
@@ -41,6 +42,7 @@ group :development, :mysql do
   gem "guard-rspec"
   gem "guard-shell"
   gem "pry"
+  gem 'rack', '2.0.5'
   gem "rack-livereload"
   gem "rb-fsevent"
   gem "rubocop-github"
